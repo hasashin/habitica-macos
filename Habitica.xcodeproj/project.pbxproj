@@ -7,22 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2672647F247052730076DEC0 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2672647E247052730076DEC0 /* ProgressBarView.swift */; };
+		2672648724709CA20076DEC0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2672648624709CA20076DEC0 /* Item.swift */; };
+		26E4FFCC24701DD100853EAF /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FFCB24701DD100853EAF /* StatsView.swift */; };
+		26E4FFCE2470263400853EAF /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E4FFCD2470263400853EAF /* UserData.swift */; };
+		AA3A49EB23D9D75A00CA4C4D /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3A49EA23D9D75A00CA4C4D /* ActivityIndicator.swift */; };
+		AA43C19023D9DA77002F81CF /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43C18F23D9DA77002F81CF /* MainView.swift */; };
+		AA43C19423DA46D7002F81CF /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43C19323DA46D7002F81CF /* TasksView.swift */; };
+		AA43C19723DA551D002F81CF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA43C19623DA551D002F81CF /* Task.swift */; };
+		AA44B62324165DD3002E1086 /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA44B62224165DD3002E1086 /* DebugView.swift */; };
+		AA5C531F23E2B93600B2A549 /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C531E23E2B93600B2A549 /* TaskRow.swift */; };
+		AA5C532823E2DA0500B2A549 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C532723E2DA0500B2A549 /* Reminder.swift */; };
+		AA5C532B23E3090100B2A549 /* HttpSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C532A23E3090100B2A549 /* HttpSession.swift */; };
+		AA5C532D23E30C8700B2A549 /* HabiticaUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5C532C23E30C8700B2A549 /* HabiticaUrl.swift */; };
+		AA8E8C8523E8DE0800B51278 /* HabiticaTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA8E8C8423E8DE0800B51278 /* HabiticaTextFieldStyle.swift */; };
 		AA9EE31D23D97DFF00BCBFEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EE31C23D97DFF00BCBFEA /* AppDelegate.swift */; };
-		AA9EE31F23D97DFF00BCBFEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EE31E23D97DFF00BCBFEA /* ContentView.swift */; };
+		AA9EE31F23D97DFF00BCBFEA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EE31E23D97DFF00BCBFEA /* LoginView.swift */; };
 		AA9EE32123D97E0200BCBFEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9EE32023D97E0200BCBFEA /* Assets.xcassets */; };
 		AA9EE32423D97E0200BCBFEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9EE32323D97E0200BCBFEA /* Preview Assets.xcassets */; };
 		AA9EE32723D97E0200BCBFEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9EE32523D97E0200BCBFEA /* Main.storyboard */; };
+		AA9EE33023D9915600BCBFEA /* ServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EE32F23D9915600BCBFEA /* ServerResponse.swift */; };
+		AA9EE33223D9956900BCBFEA /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EE33123D9956900BCBFEA /* LoginData.swift */; };
+		AAA3B01F23F6B99A001A27D7 /* Habitica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AAA3B01D23F6B99A001A27D7 /* Habitica.xcdatamodeld */; };
+		AAA3B02123F6D402001A27D7 /* Backgrounds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA3B02023F6D402001A27D7 /* Backgrounds.xcassets */; };
+		AAA3B02423F6E6B7001A27D7 /* Classes.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAA3B02323F6E6B7001A27D7 /* Classes.xcassets */; };
+		AAA3B02A23F7110B001A27D7 /* DataManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA3B02923F7110B001A27D7 /* DataManipulation.swift */; };
+		AAF15EC123E85EBF00041C8C /* WarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF15EC023E85EBF00041C8C /* WarningView.swift */; };
+		AAFE291E23E8467F00625D19 /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFE291D23E8467F00625D19 /* Tasks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2672647E247052730076DEC0 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		2672648624709CA20076DEC0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		26E4FFCB24701DD100853EAF /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		26E4FFCD2470263400853EAF /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		AA3A49EA23D9D75A00CA4C4D /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		AA43C18F23D9DA77002F81CF /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		AA43C19323DA46D7002F81CF /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		AA43C19623DA551D002F81CF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		AA44B62224165DD3002E1086 /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		AA5C531E23E2B93600B2A549 /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		AA5C532723E2DA0500B2A549 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		AA5C532A23E3090100B2A549 /* HttpSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpSession.swift; sourceTree = "<group>"; };
+		AA5C532C23E30C8700B2A549 /* HabiticaUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabiticaUrl.swift; sourceTree = "<group>"; };
+		AA8E8C8423E8DE0800B51278 /* HabiticaTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabiticaTextFieldStyle.swift; sourceTree = "<group>"; };
 		AA9EE31923D97DFF00BCBFEA /* Habitica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Habitica.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9EE31C23D97DFF00BCBFEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA9EE31E23D97DFF00BCBFEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA9EE31E23D97DFF00BCBFEA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		AA9EE32023D97E0200BCBFEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA9EE32323D97E0200BCBFEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA9EE32623D97E0200BCBFEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA9EE32823D97E0200BCBFEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AA9EE32923D97E0200BCBFEA /* Habitica.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Habitica.entitlements; sourceTree = "<group>"; };
+		AA9EE32F23D9915600BCBFEA /* ServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerResponse.swift; sourceTree = "<group>"; };
+		AA9EE33123D9956900BCBFEA /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
+		AAA3B01E23F6B99A001A27D7 /* Habitica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Habitica.xcdatamodel; sourceTree = "<group>"; };
+		AAA3B02023F6D402001A27D7 /* Backgrounds.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Backgrounds.xcassets; sourceTree = "<group>"; };
+		AAA3B02323F6E6B7001A27D7 /* Classes.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Classes.xcassets; sourceTree = "<group>"; };
+		AAA3B02923F7110B001A27D7 /* DataManipulation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManipulation.swift; sourceTree = "<group>"; };
+		AAF15EC023E85EBF00041C8C /* WarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarningView.swift; sourceTree = "<group>"; };
+		AAFE291D23E8467F00625D19 /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +80,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2672647D247052360076DEC0 /* DrawingViews */ = {
+			isa = PBXGroup;
+			children = (
+				2672647E247052730076DEC0 /* ProgressBarView.swift */,
+			);
+			path = DrawingViews;
+			sourceTree = "<group>";
+		};
+		2672648524709C7B0076DEC0 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				2672648624709CA20076DEC0 /* Item.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		26FD4DF224BC70A500E5C276 /* TouchBarViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TouchBarViews;
+			sourceTree = "<group>";
+		};
+		AA3A49E923D9D73C00CA4C4D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C532C23E30C8700B2A549 /* HabiticaUrl.swift */,
+				AA3A49EA23D9D75A00CA4C4D /* ActivityIndicator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AA43C18E23D9DA68002F81CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				26FD4DF224BC70A500E5C276 /* TouchBarViews */,
+				2672647D247052360076DEC0 /* DrawingViews */,
+				AA9EE31E23D97DFF00BCBFEA /* LoginView.swift */,
+				AA43C18F23D9DA77002F81CF /* MainView.swift */,
+				AA43C19323DA46D7002F81CF /* TasksView.swift */,
+				AA5C531E23E2B93600B2A549 /* TaskRow.swift */,
+				AAF15EC023E85EBF00041C8C /* WarningView.swift */,
+				AA44B62224165DD3002E1086 /* DebugView.swift */,
+				26E4FFCB24701DD100853EAF /* StatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA43C19523DA5510002F81CF /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				AA43C19623DA551D002F81CF /* Task.swift */,
+				AA5C532723E2DA0500B2A549 /* Reminder.swift */,
+				AAFE291D23E8467F00625D19 /* Tasks.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
+		AA5C532923E308D900B2A549 /* HTTPRequests */ = {
+			isa = PBXGroup;
+			children = (
+				AA5C532A23E3090100B2A549 /* HttpSession.swift */,
+				AA9EE32F23D9915600BCBFEA /* ServerResponse.swift */,
+				AA9EE33123D9956900BCBFEA /* LoginData.swift */,
+				26E4FFCD2470263400853EAF /* UserData.swift */,
+			);
+			path = HTTPRequests;
+			sourceTree = "<group>";
+		};
+		AA8E8C8323E8DDF200B51278 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				AA8E8C8423E8DE0800B51278 /* HabiticaTextFieldStyle.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
 		AA9EE31023D97DFF00BCBFEA = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +177,18 @@
 			isa = PBXGroup;
 			children = (
 				AA9EE31C23D97DFF00BCBFEA /* AppDelegate.swift */,
-				AA9EE31E23D97DFF00BCBFEA /* ContentView.swift */,
-				AA9EE32023D97E0200BCBFEA /* Assets.xcassets */,
 				AA9EE32523D97E0200BCBFEA /* Main.storyboard */,
 				AA9EE32823D97E0200BCBFEA /* Info.plist */,
 				AA9EE32923D97E0200BCBFEA /* Habitica.entitlements */,
 				AA9EE32223D97E0200BCBFEA /* Preview Content */,
+				AA8E8C8323E8DDF200B51278 /* Styles */,
+				AA5C532923E308D900B2A549 /* HTTPRequests */,
+				AA43C19523DA5510002F81CF /* Tasks */,
+				2672648524709C7B0076DEC0 /* Items */,
+				AA3A49E923D9D73C00CA4C4D /* Utils */,
+				AA43C18E23D9DA68002F81CF /* Views */,
+				AAA3B02823F710E4001A27D7 /* Data manipulation */,
+				AAA3B02223F6D40A001A27D7 /* Resources */,
 			);
 			path = Habitica;
 			sourceTree = "<group>";
@@ -72,6 +199,25 @@
 				AA9EE32323D97E0200BCBFEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAA3B02223F6D40A001A27D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3B01D23F6B99A001A27D7 /* Habitica.xcdatamodeld */,
+				AA9EE32023D97E0200BCBFEA /* Assets.xcassets */,
+				AAA3B02023F6D402001A27D7 /* Backgrounds.xcassets */,
+				AAA3B02323F6E6B7001A27D7 /* Classes.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AAA3B02823F710E4001A27D7 /* Data manipulation */ = {
+			isa = PBXGroup;
+			children = (
+				AAA3B02923F7110B001A27D7 /* DataManipulation.swift */,
+			);
+			path = "Data manipulation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +236,8 @@
 			dependencies = (
 			);
 			name = Habitica;
+			packageProductDependencies = (
+			);
 			productName = Habitica;
 			productReference = AA9EE31923D97DFF00BCBFEA /* Habitica.app */;
 			productType = "com.apple.product-type.application";
@@ -100,8 +248,8 @@
 		AA9EE31123D97DFF00BCBFEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Dominik Hażak";
 				TargetAttributes = {
 					AA9EE31823D97DFF00BCBFEA = {
@@ -118,6 +266,8 @@
 				Base,
 			);
 			mainGroup = AA9EE31023D97DFF00BCBFEA;
+			packageReferences = (
+			);
 			productRefGroup = AA9EE31A23D97DFF00BCBFEA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -135,6 +285,8 @@
 				AA9EE32723D97E0200BCBFEA /* Main.storyboard in Resources */,
 				AA9EE32423D97E0200BCBFEA /* Preview Assets.xcassets in Resources */,
 				AA9EE32123D97E0200BCBFEA /* Assets.xcassets in Resources */,
+				AAA3B02423F6E6B7001A27D7 /* Classes.xcassets in Resources */,
+				AAA3B02123F6D402001A27D7 /* Backgrounds.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +297,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9EE31F23D97DFF00BCBFEA /* ContentView.swift in Sources */,
+				AA9EE31F23D97DFF00BCBFEA /* LoginView.swift in Sources */,
+				AA8E8C8523E8DE0800B51278 /* HabiticaTextFieldStyle.swift in Sources */,
+				AAA3B01F23F6B99A001A27D7 /* Habitica.xcdatamodeld in Sources */,
+				AA5C531F23E2B93600B2A549 /* TaskRow.swift in Sources */,
+				AA43C19423DA46D7002F81CF /* TasksView.swift in Sources */,
+				AA5C532823E2DA0500B2A549 /* Reminder.swift in Sources */,
+				2672648724709CA20076DEC0 /* Item.swift in Sources */,
+				AA5C532D23E30C8700B2A549 /* HabiticaUrl.swift in Sources */,
+				AA43C19023D9DA77002F81CF /* MainView.swift in Sources */,
+				AA5C532B23E3090100B2A549 /* HttpSession.swift in Sources */,
+				AA9EE33223D9956900BCBFEA /* LoginData.swift in Sources */,
+				AAA3B02A23F7110B001A27D7 /* DataManipulation.swift in Sources */,
+				AA43C19723DA551D002F81CF /* Task.swift in Sources */,
+				AA44B62324165DD3002E1086 /* DebugView.swift in Sources */,
+				2672647F247052730076DEC0 /* ProgressBarView.swift in Sources */,
 				AA9EE31D23D97DFF00BCBFEA /* AppDelegate.swift in Sources */,
+				26E4FFCC24701DD100853EAF /* StatsView.swift in Sources */,
+				AAFE291E23E8467F00625D19 /* Tasks.swift in Sources */,
+				AAF15EC123E85EBF00041C8C /* WarningView.swift in Sources */,
+				AA3A49EB23D9D75A00CA4C4D /* ActivityIndicator.swift in Sources */,
+				26E4FFCE2470263400853EAF /* UserData.swift in Sources */,
+				AA9EE33023D9915600BCBFEA /* ServerResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +362,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -250,6 +423,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -282,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Habitica/Habitica.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Habitica/Preview Content\"";
@@ -296,6 +471,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasashin.Habitica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -305,6 +481,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Habitica/Habitica.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Habitica/Preview Content\"";
@@ -319,6 +496,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasashin.Habitica;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -345,6 +523,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AAA3B01D23F6B99A001A27D7 /* Habitica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AAA3B01E23F6B99A001A27D7 /* Habitica.xcdatamodel */,
+			);
+			currentVersion = AAA3B01E23F6B99A001A27D7 /* Habitica.xcdatamodel */;
+			path = Habitica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AA9EE31123D97DFF00BCBFEA /* Project object */;
 }

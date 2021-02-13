@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "867CBF34-43DA-4837-8BE6-8E082D1FAD68"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EEBE0DB8-35BB-4301-8808-DC33AFFE685A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Habitica/Data manipulation/DataManipulation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "updateTasks(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EEBE0DB8-35BB-4301-8808-DC33AFFE685A - d3cbb74e69e30210"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Habitica.DataManipulation.updateTasks(inout Swift.Array&lt;Habitica.Task&gt;) -&gt; ()"
+                  moduleName = "Habitica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominikhazak/Documents/projektyDev/Swift/Habitica/Habitica/Data%20manipulation/DataManipulation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "423">
+               </Location>
+               <Location
+                  uuid = "EEBE0DB8-35BB-4301-8808-DC33AFFE685A - 919f3a30867270a9"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Habitica.Task) -&gt; Swift.Bool in Habitica.DataManipulation.updateTasks(inout Swift.Array&lt;Habitica.Task&gt;) -&gt; ()"
+                  moduleName = "Habitica"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dominikhazak/Documents/projektyDev/Swift/Habitica/Habitica/Data%20manipulation/DataManipulation.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "109">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F641DC54-1A18-48D3-918D-066AB313F700"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Habitica/Data manipulation/DataManipulation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "updateTasks(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9B172DA-839B-4DB1-A168-0B29CEE99C35"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Habitica/Data manipulation/DataManipulation.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "updateTasks(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

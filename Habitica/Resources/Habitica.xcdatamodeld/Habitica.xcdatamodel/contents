@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Login" representedClassName="Login" syncable="YES" codeGenerationType="class">
+        <attribute name="login" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Metadata" representedClassName="Metadata" syncable="YES" codeGenerationType="class">
+        <attribute name="lastUpdate" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StoredTasks" representedClassName="StoredTasks" syncable="YES" codeGenerationType="class">
+        <attribute name="alias" optional="YES" attributeType="String"/>
+        <attribute name="attribute" optional="YES" attributeType="String"/>
+        <attribute name="collapseChecklist" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="completed" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="counterDown" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="counterUp" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="daysOfMonth" optional="YES" attributeType="Transformable" customClassName="[Int]"/>
+        <attribute name="everyX" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="frequency" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="priority" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="reminders" attributeType="Transformable" customClassName="[Reminder]"/>
+        <attribute name="repeat_" optional="YES" attributeType="Transformable" customClassName="[String:Bool]"/>
+        <attribute name="startDate" optional="YES" attributeType="String"/>
+        <attribute name="streak" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tags" attributeType="Transformable" customClassName="[String]"/>
+        <attribute name="text" attributeType="String"/>
+        <attribute name="type" attributeType="String"/>
+        <attribute name="value" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="weeksOfMonth" optional="YES" attributeType="Transformable" customClassName="[Int]"/>
+    </entity>
+    <elements>
+        <element name="Login" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="Metadata" positionX="-54" positionY="135" width="128" height="58"/>
+        <element name="StoredTasks" positionX="-45" positionY="18" width="128" height="373"/>
+    </elements>
+</model>
